@@ -1,0 +1,22 @@
+.bg-primary {
+  background-color: $primary !important;
+}
+
+
+.text-primary {
+  color: $primary !important;
+}
+
+a {
+  color: $primary;
+  &:hover,
+  &:focus,
+  &:active {
+    color: darken($primary, 15%);
+  }
+}
+
+.btn-light {
+  font-weight: 800;
+  margin-top: 40px;
+}
